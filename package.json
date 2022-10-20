@@ -1,0 +1,24 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "leetcode刷题",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FEliuyg/leetcode.git"
+  },
+  "keywords": [],
+  "author": "xiaoyao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FEliuyg/leetcode/issues"
+  },
+  "homepage": "https://github.com/FEliuyg/leetcode#readme",
+  "devDependencies": {
+    "vitest": "0.24.3"
+  }
+}
