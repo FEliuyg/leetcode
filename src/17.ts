@@ -1,19 +1,19 @@
 export default function letterCombinations(digits: string): string[] {
   const letters = [
-    "",
-    "",
-    "abc",
-    "def",
-    "ghi",
-    "jkl",
-    "mno",
-    "pqrs",
-    "tuv",
-    "wxyz",
+    '',
+    '',
+    'abc',
+    'def',
+    'ghi',
+    'jkl',
+    'mno',
+    'pqrs',
+    'tuv',
+    'wxyz',
   ];
 
-  const digitArr = digits.split("");
-  const lettters = digitArr.map((digit) => letters[digit].split(""));
+  const digitArr = digits.split('');
+  const lettters = digitArr.map((digit) => letters[digit].split(''));
 
   if (lettters.length === 0) {
     return [];
@@ -24,7 +24,7 @@ export default function letterCombinations(digits: string): string[] {
   }
 
   return lettters.reduce((result, cur) => {
-    let temp = [];
+    let temp: string[] = [];
     for (let i = 0; i < result.length; i++) {
       for (let j = 0; j < cur.length; j++) {
         temp.push(`${result[i]}${cur[j]}`);
