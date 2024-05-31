@@ -18,3 +18,5 @@ leetcode 刷题
 
 ## 二叉树
 - [94. 二叉树的中序遍历](https://github.com/FEliuyg/leetcode/issues/1)
+- [102. 二叉树的层序遍历](https://github.com/FEliuyg/leetcode/issues/2)
+- [104. 二叉树的最大深度](https://github.com/FEliuyg/leetcode/issues/3)
